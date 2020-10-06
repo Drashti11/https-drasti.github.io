@@ -1,0 +1,68 @@
+		body{
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-blend-mode: color-burn;
+			background-image: url(pan-xiaozhen-pj-BrFZ9eAA-unsplash.jpg);
+			background-attachment: fixed;
+			width: 100%;
+			height: 100%; 
+		}
+
+		.bg {
+			/* The image used */
+
+			/* Add the blur effect */
+			filter: blur(8px);
+			-webkit-filter: blur(8px);
+
+			
+
+  			/* Center and scale the image nicely */
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		label{ font-family: cooper; }
+		legend{ font-family: cooper; }
+
+		p.solid{ border-style: solid; }
+		h1 { color: navy; font-family: Brush-script-MT ; font-size:60; }
+		h2 { align-self: center ; color:darkgreen; font-family: gabriola; font-size: 40; }
+	
+		.topnav {
+			overflow: hidden;
+			background-color: skyblue;
+		}
+
+		.topnav a {
+			float: left;
+			text-align: right;
+			color: black;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+		/*.topnav a:hover {
+			background-color: lightgrey;
+			color: black;
+		}*/
+
+		.topnav a.active {
+			background-color: darkgrey;
+			color: black;
+		}
+
+		.footer {
+ 			position: fixed;
+ 			left: 0;
+ 			bottom: 0;
+ 			width: 100%;
+ 			height: 20%;
+ 			background-color: skyblue;
+ 			color: black;
+ 			text-align: center;
+		}
